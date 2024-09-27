@@ -99,7 +99,7 @@ class Ui_Form(object):
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
         Form.setWindowTitle(_translate("Form", "Расчет реальной наращенной суммы с учетом инфляции"))
-        self.label_39.setText(_translate("Form", "<html><head/><body><p>Вывод: наращенная сумма с учетом обесценивания денег за счёт инфляции равна:</p></body></html>"))
+        self.label_39.setText(_translate("Form", "<html><head/><body><p>Наращенная сумма с учетом обесценивания денег за счёт инфляции равна:</p></body></html>"))
         self.label_40.setText(_translate("Form", "руб."))
         self.label_41.setText(_translate("Form", "<html><head/><body><p>C</p></body></html>"))
         self.label_38.setText(_translate("Form", "="))

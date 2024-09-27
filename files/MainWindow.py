@@ -14,8 +14,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(800, 350)
-        MainWindow.setMinimumSize(QtCore.QSize(800, 350))
+        MainWindow.resize(800, 310)
+        MainWindow.setMinimumSize(QtCore.QSize(800, 310))
         MainWindow.setMaximumSize(QtCore.QSize(800, 350))
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -300,7 +300,7 @@ class Ui_MainWindow(object):
         self.label_45.setText(_translate("MainWindow", "<html><head/><body><p>m</p></body></html>"))
         self.label_40.setText(_translate("MainWindow", "<html><head/><body><p>Введите годовую ставку:</p></body></html>"))
         self.label_46.setText(_translate("MainWindow", "<html><head/><body><p>=</p></body></html>"))
-        self.label_47.setText(_translate("MainWindow", "<html><head/><body><p/></body></html>"))
+        self.label_47.setText(_translate("MainWindow", "<html><head/><body><p>%</p></body></html>"))
         self.label_49.setText(_translate("MainWindow", "<html><head/><body><p>Введите срок финансовой операции:</p></body></html>"))
         self.label_50.setText(_translate("MainWindow", "<html><head/><body><p>n</p></body></html>"))
         self.label_51.setText(_translate("MainWindow", "<html><head/><body><p>=</p></body></html>"))
